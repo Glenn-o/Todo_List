@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.delete_button{
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.delete_button:hover{
+  background-color: #0069d9;
+}
+#input{
+  margin: 2vh auto;
+  width: 20vw;
+}
+#submit{
+  margin: auto;
+  margin-right: 3vw;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+}
+.container_button{
+  display: flex;
+  flex-direction: row;
+}
